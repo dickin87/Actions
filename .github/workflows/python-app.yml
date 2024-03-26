@@ -38,4 +38,3 @@ jobs:
       run: |
         pytest
         python example.py
-      run: python3 example.py
