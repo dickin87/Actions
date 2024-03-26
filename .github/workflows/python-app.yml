@@ -37,5 +37,5 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-    - name: Test self written script
+        python example.py
       run: python3 example.py
