@@ -6,7 +6,8 @@ name: Python application
 on: [push]
 
 jobs:
-
-  runs:
-    using: 'docker'
-    image: 'Dockerfile'
+	
+  steps:
+    runs:
+      using: 'docker'
+      image: 'Dockerfile'
